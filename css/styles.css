@@ -266,8 +266,9 @@ img {
   color: var(--color-modal-overlay);
   padding: 24px 0;
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .index-link-active::after {
   content: "";
   position: absolute;
@@ -283,7 +284,6 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
 }
 
 .link {
@@ -297,6 +297,8 @@ img {
 .link:focus {
   color: #404bbf;
 }
+
+
 
 .list-images-header {
   font-weight: 500;
