@@ -432,15 +432,21 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .portfolio-list-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
+
+}
+
+.portfolio-list-link:hover .portfolio-list-app-photo-paragraph {
+  transform: translateY(0%);
 }
 
 .portfolio-list-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
   }
 
+  .portfolio-list-link:focus .portfolio-list-app-photo-paragraph {
+    transform: translateY(0%);
+  }
 .portfolio-list-listing {
   width: calc((100% - 48px) / 3);
 }
